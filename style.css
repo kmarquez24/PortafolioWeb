@@ -1,0 +1,258 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #556270;
+    font-size: 35px;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .navegacion {
+   text-align: right;
+   padding: 10px 0 ;
+   border-color: #e1e1e1;
+   border-style: solid;
+   border-width: 1px 0 1px;
+   background-color: #203A43;
+  }
+  
+  .navegacion a {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-family:  'Open Sans';
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+    margin: 25px;
+  }
+  
+  .navegacion a:hover {
+    color: #16222A;
+  }
+  
+  .fondo-principal {
+    background-image: url(./assets/wallpalper/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px; 
+    opacity: 80%;
+    overflow: hidden;
+  }
+  
+  .contenedor-titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 400px;
+  }
+  
+  .titulo-principal {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    color: #16222A;
+    margin: 0px auto;
+  }
+  
+  .titulo-principal:hover {
+    color: #fff;
+  }
+  
+  .titulo-secundario {
+    font-family: 'Caveat', cursive;font-size: 50px;
+    color: #16222A;
+    margin: 0px auto;
+  }
+  
+  .contenedor-conocer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     max-width: 100%;
+     height: 500px;
+     background-color: #16222A;
+     background-size: cover;
+     border-top: solid;
+     border-width: 1px;
+     border-color: white;
+  }
+  
+  .img-conocer {
+     width: 200px;
+     height: 220px;
+     justify-content: center;
+     overflow: hidden;
+     border-radius: 50%;
+     margin-top: 20px;
+  }
+  
+  .contenedor-info-conocer {
+     width: 618px;
+     height: 164px;
+     color: white;
+     text-align: justify;
+     font-size: 18px;
+     font-family: 'Kanit', sans-serif;
+     margin: 10px auto;
+  }
+  
+  .contenedor-info-conocer h3 {
+     font-size: 32px;
+     font-family: 'Kanit', sans-serif;
+     margin: 5px auto;
+  }
+  
+  .titulo-secundario:hover {
+    color: #fff;
+  }
+  
+  .skills {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contenedor-skills {
+    margin: 50px;
+    padding: 10px;
+    border-color: #7303c0;
+    border-radius: 10px 0px;
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  .img-skills {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  .skills-info {
+    color: #808891;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  span {
+    color: #7303c0;
+  }
+  
+  .contenedor-imagen {
+    width: 450px;
+    height: 400px;
+    margin: 20px;
+    border-color: #556270;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    opacity: 85%;
+  }
+  
+  img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .recent-work {
+    text-align: center;
+  }
+  
+  .titulo-works {
+    font-size: 35px;
+    color: #7303c0;
+    font-weight: bold;
+    margin: 60px 0 0;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .contenedor-work {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  }
+  
+  .texto-work-recent {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+  }
+  
+  .texto-work-recent-secundario{
+    font-size: 25px;
+    margin: 5px;
+    color: #2c3e50;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .contenedor-imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .contenedor-colaboraciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px ;
+  }
+  
+  .contenedor-imagen-colaboraciones {
+    width: 150px;
+    height: 150px;
+    margin: 40px 5px ;
+    border-color: #556270;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    opacity: 85%;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .contenedor-imagen-colaboraciones h3 {
+    margin: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #203A43;
+  }
+  
+  .titulo-colaboraciones {
+    padding-top: 85px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  
+  
+  footer {
+  color: white;
+  background-color: #0575E6;
+  text-align: center;
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 10px 0 ;
+  border-color: #0082c8;
+  border-style: solid;
+  border-width: 1px 0 1px;
+  }
