@@ -21,13 +21,32 @@ html {
   }
   
   .navegacion {
-   text-align: right;
+   display: flex;
+   align-items: row;
+   justify-content: space-between;
+   text-align: left;
    padding: 10px 0 ;
    border-color: #e1e1e1;
    border-style: solid;
    border-width: 1px 0 1px;
    background-color: #203A43;
   }
+
+  .btnDarkMode {
+  background-color: white;
+  color: #203A43;
+  border-radius: 5px; 
+  height: 45px;
+  text-transform: capitalize;
+  margin-right: 20px;
+  font-weight: bold ;
+  }
+
+  .btnDarkMode:hover{
+    background-color: #16222A;
+    color: white;
+  }
+
   
   .navegacion a {
     text-transform: capitalize;
