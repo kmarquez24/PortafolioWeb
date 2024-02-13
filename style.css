@@ -63,7 +63,7 @@ html {
   }
   
   .fondo-principal {
-    background-image: url(./assets/wallpalper/laptop.jpg);
+    background-image: url(https://bootcamp-marquez-lambda.s3.amazonaws.com/laptop.jpg);
     background-size: cover;
     background-position: center;
     height: 550px; 
