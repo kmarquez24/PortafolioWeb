@@ -1,183 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@400;600&family=Raleway:wght@100;500;700&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@400;600&family=Raleway:wght@100;500;700&family=Roboto+Mono:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/57bc778b39.js" crossorigin="anonymous"></script>
+
     <title>PortafolioWeb</title>
 </head>
-<body>
-    <nav class="navegacion">
-        
-        <div>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-        </div>
 
-            <button class="btnDarkMode">Dark Mode</button>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Texto a buscar" aria-label="Search">
+                </form>
+            </div>
+        </div>
     </nav>
- 
 
     <div class="fondo-principal">
         <div class="contenedor-titulos">
-           
+
             <div>
-                <h1 class="titulo-principal">Kerwin Marquez</h1>  
-            </div>  
+                <h1 class="titulo-principal">Kerwin Marquez</h1>
+            </div>
 
             <div>
                 <h2 class="titulo-secundario">Desing, Frontend Developer & Mentor.</h2>
-            </div> 
-        </div> 
+            </div>
+        </div>
     </div>
- 
+
     <div class="contenedor-conocer">
         <div class="img-conocer">
-            <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-perfil.png' alt="Rostro Desarrollador" />
+            <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-perfil.png'
+                alt="Rostro Desarrollador" />
         </div>
 
         <div class="contenedor-info-conocer">
             <h3 class="titulo-conocer">Hola, soy Rafa. Te comento un poco mas acerca de mi.</h3>
-            <p>Por mas de una decada he estado aprendiendo, creciendo y desarrollandome como especialista en proyectos de seguridad electronica,      tengo casi 6 a#os en ecuador - guayaquil y actualmente lidero el departamento tecnico de una gran empresa.
-            </p> 
-            <p>  A continuacion te muestro un poco mas sobre mi experiencia!!</p>
+            <p>Por mas de una decada he estado aprendiendo, creciendo y desarrollandome como especialista en proyectos
+                de seguridad electronica, tengo casi 6 a#os en ecuador - guayaquil y actualmente lidero el departamento
+                tecnico de una gran empresa.
+            </p>
+            <p> A continuacion te muestro un poco mas sobre mi experiencia!!</p>
         </div>
     </div>
-
+    <!--HABILIDADES-->
     <main class="skills">
-        <div class="contenedor-skills">
-            <div class="img-skills">
-                <img src='./assets/Skills/programacion(2).png' alt="Dise#o Grafico"/>
-            </div>
-            <div class="skills-info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto non repellat cupiditate reiciendis autem quasi expedita beatae modi sint. Sit, a quas dolorum fugit maiores autem facilis non ducimus.'
-                </p>
-                <h3><span>Value simple content</span></h3>
-                <p>Lorem ipsum, dolor sit amet consectetur      adipisicing elit. Ex voluptatibus vitae temporibus atque iure est, cum fugiat quas possimus sunt facere tempore exercitationem. Unde, pariatur. Cum, nemo. Maxime, provident ipsam.
-                </p>
-                <p>
-                    <span>Desing Tools:</span>
-                </p>
+        <div class="row">
+            <div class="contenedor-skills col-3">
+                <div class="img-skills">
+                    <img src='./assets/Skills/programacion(2).png' alt="Dise#o Grafico" />
+                </div>
+                <div class="skills-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto non repellat cupiditate
+                        reiciendis autem quasi expedita beatae modi sint. Sit, a quas dolorum fugit maiores autem
+                        facilis
+                        non ducimus.'
+                    </p>
+                    <h3><span>Value simple content</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptatibus vitae temporibus atque
+                        iure
+                        est, cum fugiat quas possimus sunt facere tempore exercitationem. Unde, pariatur. Cum, nemo.
+                        Maxime,
+                        provident ipsam.
+                    </p>
+                    <p>
+                        <span>Desing Tools:</span>
+                    </p>
 
-                <ul>
-                    <li>Afinity desing</li>
-                    <li>Figma</li>
-                    <li>Photoshop</li>
-                    <li>Autocad</li>
-                    <li>Matlab</li>
-                </ul>
-            </div>
-        </div>
-           
-        <div class="contenedor-skills">
-            <div class="img-skills">
-                <img src="./assets/Skills/entrenamiento.png" alt="Coaching" />
+                    <ul>
+                        <li>Afinity desing</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Autocad</li>
+                        <li>Matlab</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="skills-info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto non repellat cupiditate reiciendis autem quasi expedita beatae modi sint. Sit, a quas dolorum fugit maiores autem facilis non ducimus.'
-                </p>
-                <h3><span>I value simple content.</span></h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptatibus vitae temporibus atque iure est, cum fugiat quas possimus sunt facere tempore exercitationem. Unde, pariatur. Cum, nemo. Maxime, provident ipsam.</p>
-                <p><span>Desing Tools:</span></p>
-                <ul>
-                    <li>Afinity desing</li>
-                    <li>Figma</li>
-                    <li>Photoshop</li>
-                    <li>Autocad</li>
-                    <li>Matlab</li>
-                </ul>
+            <div class="contenedor-skills col-3">
+                <div class="img-skills">
+                    <img src="./assets/Skills/entrenamiento.png" alt="Coaching" />
+                </div>
+
+                <div class="skills-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto non repellat cupiditate
+                        reiciendis autem quasi expedita beatae modi sint. Sit, a quas dolorum fugit maiores autem
+                        facilis
+                        non ducimus.'
+                    </p>
+                    <h3><span>I value simple content.</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptatibus vitae temporibus atque
+                        iure
+                        est, cum fugiat quas possimus sunt facere tempore exercitationem. Unde, pariatur. Cum, nemo.
+                        Maxime,
+                        provident ipsam.</p>
+                    <p><span>Desing Tools:</span></p>
+                    <ul>
+                        <li>Afinity desing</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Autocad</li>
+                        <li>Matlab</li>
+                    </ul>
+                </div>
             </div>
+
+            <div class="contenedor-skills col-3">
+                <div class="img-skills">
+                    <img src='./assets/Skills/el-pensamiento-de-diseno.png' alt="Programacion" />
+                </div>
+                <div class="skills-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto non repellat cupiditate
+                        reiciendis autem quasi expedita beatae modi sint. Sit, a quas dolorum fugit maiores autem
+                        facilis
+                        non ducimus.'
+                    </p>
+                    <h3><span>I value simple content.</span></h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptatibus vitae temporibus atque
+                        iure
+                        est, cum fugiat quas possimus sunt facere tempore exercitationem. Unde, pariatur. Cum, nemo.
+                        Maxime,
+                        provident ipsam.</p>
+                    <p>
+                        <span>Desing Tools:</span>
+                    </p>
+                    <ul>
+                        <li>Afinity desing</li>
+                        <li>Figma</li>
+                        <li>Photoshop</li>
+                        <li>Autocad</li>
+                        <li>Matlab</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-            
-        <div class="contenedor-skills">
-            <div class="img-skills">
-                <img src='./assets/Skills/el-pensamiento-de-diseno.png' alt="Programacion" />
-            </div>
-            <div class="skills-info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iusto non repellat cupiditate reiciendis autem quasi expedita beatae modi sint. Sit, a quas dolorum fugit maiores autem facilis non ducimus.'
-                </p>
-                <h3><span>I value simple content.</span></h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptatibus vitae temporibus atque iure est, cum fugiat quas possimus sunt facere tempore exercitationem. Unde, pariatur. Cum, nemo. Maxime, provident ipsam.</p>
-                <p>
-                    <span>Desing Tools:</span>
-                </p>
-                <ul>
-                    <li>Afinity desing</li>
-                    <li>Figma</li>
-                    <li>Photoshop</li>
-                    <li>Autocad</li>
-                    <li>Matlab</li>
-                </ul>
-            </div>
-        </div>       
     </main>
+    <!--FIN HABILIDADES-->
+
 
     <section>
         <div class="recent-work">
             <p class="titulo-works"> Mis proyectos mas recientes.</p>
-            <p class="texto-work-recent-secundario">Si, deseas que te ayude a desarrollar tu idea, contactame enviando un correo electronico !! <span>Contactame</span></p>
+            <p class="texto-work-recent-secundario">Si, deseas que te ayude a desarrollar tu idea, contactame enviando
+                un correo electronico !! <span>Contactame</span></p>
         </div>
 
         <div class="contenedor-work">
             <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-brazo-mecanico.jpg' alt="Brazo Mecanico"/>  
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-brazo-mecanico.jpg'
+                    alt="Brazo Mecanico" />
                 <div class="texto-work-recent">
-                    <a href='brazoMecanico.html'>brazo mecanico</a>
+                    <a class="enlaces" href='brazoMecanico.html'>brazo mecanico</a>
                 </div>
             </div>
 
             <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-casa-bosque.jpg' alt="Casa en el bosque"/>
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-casa-bosque.jpg'
+                    alt="Casa en el bosque" />
                 <div class="texto-work-recent">
-                    <a href="casaBosque.html">casa bosque</a>
-                </div>
-            </div>
-            
-
-            <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-escritorio-developer.jpg' alt="Escritorio Developer"/>
-                <div class="texto-work-recent">
-                    <a href="escritorioDeveloper.html">escritorio developer</a>
+                    <a class="enlaces" href="casaBosque.html">casa bosque</a>
                 </div>
             </div>
 
+
             <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-laptop(2).jpg' alt="Laptop 2"/>
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-escritorio-developer.jpg'
+                    alt="Escritorio Developer" />
                 <div class="texto-work-recent">
-                    <a href="laptop.html">laptop</a>
+                    <a class="enlaces" href="escritorioDeveloper.html">escritorio developer</a>
                 </div>
             </div>
 
             <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-laptop.jpg' alt="Laptop"/>
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-laptop(2).jpg'
+                    alt="Laptop 2" />
                 <div class="texto-work-recent">
-                    <a href="desingLaptop.html">desing laptop</a>
+                    <a class="enlaces" href="laptop.html">laptop</a>
                 </div>
             </div>
 
             <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-medanos.jpg' alt="Medanos"/>
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-laptop.jpg' alt="Laptop" />
                 <div class="texto-work-recent">
-                    <a href="medanos.html">Medanos</a>
+                    <a class="enlaces" href="desingLaptop.html">desing laptop</a>
                 </div>
             </div>
 
             <div class="contenedor-imagen">
-                    <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-rostro-desarrollador.jpg' alt="Programador"/>
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-medanos.jpg' alt="Medanos" />
                 <div class="texto-work-recent">
-                    <a href="proyectoWeb.html">desarrollador</a>
+                    <a class="enlaces" href="medanos.html">Medanos</a>
                 </div>
             </div>
 
             <div class="contenedor-imagen">
-                    <img src='./assets/wallpalper/redes-neuronales.jpg' alt="Ramon Salinero"/>
+                <img src='https://bootcamp-marquez-lambda-resized.s3.amazonaws.com/resized-rostro-desarrollador.jpg'
+                    alt="Programador" />
                 <div class="texto-work-recent">
-                    <a href="proyectoWeb.html">redes neuronales</a>
+                    <a class="enlaces" href="proyectoWeb.html">desarrollador</a>
+                </div>
+            </div>
+
+            <div class="contenedor-imagen">
+                <img src='./assets/wallpalper/redes-neuronales.jpg' alt="Ramon Salinero" />
+                <div class="texto-work-recent">
+                    <a class="enlaces" href="proyectoWeb.html">redes neuronales</a>
                 </div>
             </div>
         </div>
@@ -185,91 +245,98 @@
         <div class="titulo-colaboraciones">
             <h2>He colaborado con grandes empresas!!</h2>
             <p><span>Te muestro un poco mas las colaboraciones realizadas.</span></p>
-        </div>  
-</section>
+        </div>
+    </section>
 
-    <section class="contenedor-colaboraciones"> 
+    <section class="contenedor-colaboraciones">
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-almax.jpg' alt="Almax 3" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-almax.jpg' alt="Almax 3" class="card-work-recent" />
             <h3>pagina web</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-arkitrust.gif' alt="Arkitrust" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-arkitrust.gif' alt="Arkitrust" class="card-work-recent" />
             <h3>aplicacion movil</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-axionlog.png' alt="Axionlog" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-axionlog.png' alt="Axionlog" class="card-work-recent" />
             <h3>automatizacion</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-ferremundo.jpg' alt="Ferremundo" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-ferremundo.jpg' alt="Ferremundo" class="card-work-recent" />
             <h3>seguridad electronica</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-honda.png' alt="Honda" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-honda.png' alt="Honda" class="card-work-recent" />
             <h3>sistema facturacion</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-arkitrust.gif' alt="Arkitrust" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-arkitrust.gif' alt="Arkitrust" class="card-work-recent" />
             <h3>aplicacion movil</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-malecon2000.jpg' alt="Malecon" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-malecon2000.jpg' alt="Malecon" class="card-work-recent" />
             <h3>automatizacion</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-ferremundo.jpg' alt="Ferremundo" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-ferremundo.jpg' alt="Ferremundo" class="card-work-recent" />
             <h3>seguridad electronica</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-honda.png' alt="Honda" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-honda.png' alt="Honda" class="card-work-recent" />
             <h3>sistema facturacion</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-ferremundo.jpg' alt="Ferremundo" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-ferremundo.jpg' alt="Ferremundo" class="card-work-recent" />
             <h3>seguridad electronica</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-axionlog.png' alt="Axionlog" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-axionlog.png' alt="Axionlog" class="card-work-recent" />
             <h3>sistema facturacion</h3>
         </div>
-        
+
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-arkitrust.gif' alt="Arkitrusk" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-arkitrust.gif' alt="Arkitrusk" class="card-work-recent" />
             <h3>aplicacion movil</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-malecon2000.jpg' alt="Malecon" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-malecon2000.jpg' alt="Malecon" class="card-work-recent" />
             <h3>seguridad electronica</h3>
         </div>
 
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-jardinez-de-esperanza.png' alt="Jardinez" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-jardinez-de-esperanza.png' alt="Jardinez" class="card-work-recent" />
             <h3>sistema facturacion</h3>
         </div>
-        
+
         <div class="contenedor-imagen-colaboraciones">
-            <img src='./assets/colaboraciones/logo-indurama.jpg' alt="Indurama" class="card-work-recent"/>
+            <img src='./assets/colaboraciones/logo-indurama.jpg' alt="Indurama" class="card-work-recent" />
             <h3>aplicacion movil</h3>
         </div>
 
-    </section>   
-    
+    </section>
+
     <footer>
         <p>Todos los derechos reservados & Elaborado por Rafael Marquez</p>
     </footer>
 
-   
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
 </body>
+
 </html>

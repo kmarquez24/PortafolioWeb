@@ -1,5 +1,10 @@
-const  darkMode = ''; 
+const elemento = document.querySelector('.contenedor-titulos h1');
+const btnCambiar = document.querySelector('.btnDark');
 
-darkMode.document
 
-addEventListener('click', darkMode());
+const cambiarTitulo = () => {
+    elemento.style.background = 'red';
+}
+
+
+btnCambiar.addEventListener('click', cambiarTitulo);
